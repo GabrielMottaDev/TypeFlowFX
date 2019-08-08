@@ -68,3 +68,18 @@
         animation: octocat-wave 560ms ease-in-out
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    html {
+      background-color: #474747;
+    }
+    h2 {
+      color: white;
+    }
+    .type-box {
+        background-color: #696969;
+    }
+    a {
+        color: white;
+    }
+  }
