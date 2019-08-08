@@ -66,6 +66,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
+    
     html {
       background-color: #474747;
     }
@@ -78,4 +79,5 @@
     a {
         color: white;
     }
+
 }
