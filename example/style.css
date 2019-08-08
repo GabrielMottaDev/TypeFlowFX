@@ -66,15 +66,15 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    
+
     html {
-      background-color: #474747;
+      background-color: #2A2A2E;
     }
     h2 {
       color: white;
     }
     .type-box {
-        background-color: #696969;
+        background-color: #38383D;
     }
     a {
         color: white;
