@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="../typeflowfx.js"></script>
+    <meta charset="utf-8"/>
+    <script>
+        setTimeout(() => {
+            let giftBox = document.getElementsByClassName("giftBox")[0];
+            giftBox.style.display = "block";
+        }, 22*1000);
+    </script>
+    <style>
+        .giftBox {
+            display: none;
+            animation-name: fade;
+            animation-duration: 1s;
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            background: #000000a8;
+        }
+        @keyframes fade {
+            from {
+                opacity: 0;
+            }
+            to {
+                /* transform: translateX(0vh); */
+            }
+        }
+        @keyframes fromTop {
+            from {
+                margin-top: -500px;
+                opacity: 0;
+            }
+            to {
+                /* transform: translateX(0vh); */
+            }
+        }
+        .giftBoxInner {
+            animation-name: fromTop;
+            animation-duration: 4s;
+
+            background: #eaeaea;
+            color: #515151;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            /* width: 44vw; */
+            height: 9vh;
+            border-radius: 4px;
+            padding: 0px 50px;
+        }
+        .giftBoxInnerAnimation {
+            
+        }
+        .giftBoxInner p {
+            font-size: 20pt;
+            font-family: 'Garnet', sans-serif;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2 class="title">Para JÃO</h2>
+    <div class="giftBox">
+        <div class="giftBoxInner">
+            <p>0000-0000-0000-0000</p>
+        </div>
+    </div>
+    <div id="toleft" class="type-box" speed="30;2500">
+        <a></a>
+        <a>Parabêns JÃO</a>
+        <a>Fiz esse site aqui</a>
+        <a>Só pra entregar o presente</a>
+        <a>...</a>
+        <a>Fica mais style assim né</a>
+		<a>Mas então, feliz aniversário</a>
+		<a>Toma teu presente:</a>
+    </div>
+
+    <br>
+</body>
+
+</html>
